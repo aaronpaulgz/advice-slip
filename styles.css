@@ -1,0 +1,67 @@
+.body {
+  background-color: #1e232c;
+  display: flex;
+  height: 100dvh;
+  padding: 0 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+.advice-card {
+  background-color: #2b333f;
+  max-width: 420px;
+  min-height: 160px;
+  margin: auto;
+  padding: 16px 16px 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.advice-number {
+  color: #3afea8;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin: 8px;
+}
+
+.advice-text {
+  color: #b7cad5;
+  text-align: center;
+  margin: 16px;
+}
+
+.divider {
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+.cta {
+  background-color: #3afea8;
+  color: #1e232c;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 2px;
+  display: flex;
+  place-content: center;
+  width: 40px;
+  margin: 24px auto -56px;
+  cursor: pointer;
+
+  /* Add transition for color and box-shadow */
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta:hover {
+  background-color: rgba(58, 254, 168, 0.8);
+
+  /* Add drop shadow */
+  box-shadow: 0 0px 24px rgba(58, 254, 168, 0.5);
+}
