@@ -6,7 +6,7 @@ async function fetchAdvice() {
     const response = await fetch(API);
     const data = await response.json();
     return {
-      slip_id: data.slip.slip_id,
+      slip_id: data.slip.id,
       advice: data.slip.advice,
     };
   } catch (error) {
